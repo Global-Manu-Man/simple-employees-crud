@@ -1,0 +1,27 @@
+{
+  "name": "simple-crud-app-employees",
+  "version": "1.0.0",
+  "description": "Realizar operaciones CRUD (Crear, Leer, Actualizar, Eliminar) en la base de datos de empleados y departamentos mediante la interfaz de usuario web",
+  "main": "server.js",
+  "scripts": {
+    "start":"node server/server.js",
+    "dev": "nodemon server/server.js "
+  },
+  "keywords": [
+    "nodejs",
+    "express",
+    "rest",
+    "api",
+    "mongodb"
+  ],
+  "author": "Emmanuel Sandoval Morales",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "mongoose": "^6.11.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}

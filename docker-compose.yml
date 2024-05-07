@@ -1,0 +1,23 @@
+version: '3'
+services:
+  web:
+    container_name: example-express-mongodb
+    restart: always
+    build: .
+    ports:
+      - "8000:8000"
+    links:
+        - mongo
+    volumes:
+        - .:/usr/src/app
+  mongo:
+    container_name: mymongodatabase
+    image: mongo
+    ports:
+      - "27018:27017"
+    volumes:
+      - mongodb-data:/data/db
+    logging:
+        driver: none
+volumes:
+  mongodb-data: 
