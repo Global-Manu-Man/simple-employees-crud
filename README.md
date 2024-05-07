@@ -17,6 +17,8 @@ We transform ideas into exceptional digital experiences. Your user-centered web 
 
  - [Instructions to download the dependencies ](https://www.npmjs.com/)
 
+ - [Instructions to download the docker ](https://hub.docker.com/search?q=node)
+
 
   Download employees project with github
 
